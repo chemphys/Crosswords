@@ -10,7 +10,6 @@
 // Word class stores a word and useful information of that word
 class Word {
    public:
-
     // Default constructor
     Word() {
         w_ = "";
@@ -18,7 +17,7 @@ class Word {
         availability_.clear();
         anchor_.clear();
     }
-    
+
     // Overloaded constructor.
     // w: string with the word
     // orientation: either ifthe word is vertical (top to bottom)
