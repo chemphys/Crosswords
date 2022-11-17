@@ -20,6 +20,8 @@ int main() {
     int n = words.size() == 4 ? CountCrosswordsThatAreValid(cw) : 0;
 
     std::cout << "Found " << cw.size() << " reasonable crosswords!" << std::endl;
+    std::cout << "This is the last crossword of the list:" << std::endl;
+    cw[cw.size()-1].Print();
     std::cout << "Found " << n << " crosswords valid!" << std::endl;
     return 0;
 }
