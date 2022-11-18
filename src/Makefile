@@ -2,7 +2,7 @@
 # Definition of MACROS
 
 CXX = g++
-CXXFLAGS = -O2 -std=c++11
+CXXFLAGS = -g -std=c++11
 
 CPP = gcc  
 CPPFLAGS =

@@ -43,7 +43,8 @@ class Word {
 
     // Useful tool to print the information on the standard output.
     void Print() {
-        std::cout << w_ << " ; orientation = " << orientation_ << std::endl;
+        std::cout << w_ << " ; orientation = " << orientation_ << " ; anchor = (" << anchor_[0] << "," << anchor_[1]
+                  << ")" << std::endl;
         for (size_t i = 0; i < availability_.size(); i++) {
             std::cout << availability_[i] << " ";
         }
